@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    #AnchorPane{
+        -fx-background: none;
+        -fx-background-image: url("/Images/planet.jpg");
+    }
+}

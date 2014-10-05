@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2014, 11:35:44 AM
+    Author     : Justin
+*/
+
+    .button{
+        -fx-font-family: "Lucida Console",monospace;
+        -fx-background-color: linear-gradient(#086A87,#2e2e2e,#1c1c1c,#1c1c1c,#151515,#151515);
+        -fx-border-color: #01DFD7;
+        -fx-border-radius: 3px;
+        -fx-background-insets: 0,1,2,3;
+        -fx-background-radius: 6,5,6,5;
+        -fx-text-fill: #01DFD7;
+        -fx-font-size: 15px;
+        -fx-font-weight: bold;
+    }
+    .button Text{
+        -fx-effect: dropshadow( one-pass-box, rgba(0,0,0,0.8), 0, 0.0, 0, 1);
+    }
+    .button:hover{
+        -fx-background-color: 
+            linear-gradient(#2f4b8f, #7ebcea),
+            linear-gradient(#263e75, #426ab7),
+            linear-gradient(#223768, #395cab);
+        -fx-text-fill: #ff0000;
+    }
+    .label{
+        -fx-background-color: black;
+        -fx-text-fill: #01DFD7;
+        -fx-font-family: "Lucida Console",monospace;
+        /*-fx-text-fill: linear-gradient(from 0% 0% to 0% 5%,repeat,#ffffff 10%, #01DFD7 90%);
+        -fx-text-effect: innershadow(gaussian, white,0,0,0,0);*/
+    }
+    .pane{
+        -fx-background-color: black;
+    }

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" onMouseMoved="#afterSetMainApp" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="spacetraders1dot0.UniverseController">
+  <children>
+    <Label id="universe_title" layoutX="250.0" layoutY="6.0" text="Universe">
+      <effect>
+        <DropShadow color="#0e5ded" height="17.89" radius="6.890000000000001" spread="0.9" width="11.67">
+          <input>
+            <Reflection bottomOpacity="0.18" fraction="1.0" topOpacity="0.46" />
+          </input>
+        </DropShadow>
+      </effect>
+    </Label>
+    <ImageView id="ss0" fx:id="ssImage0" fitHeight="50.0" fitWidth="50.0" layoutX="73.0" layoutY="79.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="true">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss0.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss1" fx:id="ssImage1" fitHeight="50.0" fitWidth="50.0" layoutX="37.0" layoutY="313.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="true">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss1.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss3" fx:id="ssImage3" fitHeight="50.0" fitWidth="50.0" layoutX="182.0" layoutY="276.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss3.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss2" fx:id="ssImage2" fitHeight="50.0" fitWidth="50.0" layoutX="157.0" layoutY="143.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss2.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss5" fx:id="ssImage5" fitHeight="50.0" fitWidth="50.0" layoutX="354.0" layoutY="236.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss5.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss4" fx:id="ssImage4" fitHeight="50.0" fitWidth="50.0" layoutX="461.0" layoutY="143.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss4.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss7" fx:id="ssImage7" fitHeight="50.0" fitWidth="50.0" layoutX="419.0" layoutY="319.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss7.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss6" fx:id="ssImage6" fitHeight="50.0" fitWidth="50.0" layoutX="311.0" layoutY="104.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss6.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss9" fx:id="ssImage9" fitHeight="50.0" fitWidth="50.0" layoutX="536.0" layoutY="211.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss9.jpg" />
+      </image>
+    </ImageView>
+    <ImageView id="ss8" fx:id="ssImage8" fitHeight="50.0" fitWidth="50.0" layoutX="497.0" layoutY="44.0" onMouseClicked="#loadSolarSystemHandler" pickOnBounds="true" smooth="false">
+      <effect>
+        <MotionBlur angle="4.39" radius="2.32" />
+      </effect>
+      <image>
+        <Image url="@../../Images/ss8.jpg" />
+      </image>
+    </ImageView>
+  </children>
+  <stylesheets>
+    <URL value="@universe.css" />
+  </stylesheets>
+</AnchorPane>

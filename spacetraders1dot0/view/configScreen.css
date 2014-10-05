@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2014, 9:34:09 PM
+    Author     : song
+*/
+
+.mainFxmlClass {
+     
+    #point_left_label{
+        -fx-font-weight: bold;
+        -fx-font-family: "Arial Black";
+        -fx-font-size: 20px;
+        -fx-border-padding: 0 15 0 15;
+    }
+    
+}

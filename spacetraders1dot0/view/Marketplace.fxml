@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onMouseMoved="#afterSetMainApp" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="spacetraders1dot0.MarketplaceController">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0" styleClass="pane">
+      <children>
+        <Button id="buy" fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonHandler" text="Back" />
+        <Label fx:id="playerInfo" layoutX="146.0" layoutY="14.0" maxHeight="24.0" prefHeight="24.0" text="" />
+        <Button fx:id="cheatButton" layoutX="503.0" layoutY="14.0" mnemonicParsing="false" onAction="#cheat" text="Cheat" />
+      </children>
+      <stylesheets>
+        <URL value="@general.css" />
+      </stylesheets>
+    </AnchorPane>
+  </children>
+  <stylesheets>
+    <URL value="@general.css" />
+  </stylesheets>
+</AnchorPane>

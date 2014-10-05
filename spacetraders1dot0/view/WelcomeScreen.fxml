@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="pane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="spacetraders1dot0.WelcomeController">
+  <children>
+    <Button id="button" fx:id="newGame" graphicTextGap="4.0" layoutX="119.0" layoutY="293.0" onAction="#newGameHandler" prefHeight="50.0" text="New Game" />
+    <Label id="screen_title" fx:id="title" alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="95.0" layoutY="28.0" mnemonicParsing="false" text="Space Traders" textAlignment="CENTER" textFill="#9e2929" underline="false">
+      <font>
+        <Font name="System Bold" size="25.0" />
+      </font>
+    </Label>
+    <Button fx:id="loadGame" layoutX="359.0" layoutY="293.0" mnemonicParsing="false" onAction="#loadGameHandler" prefHeight="50.0" text="Load Game" />
+    <Label id="titleCover" fx:id="status" layoutX="177.0" layoutY="93.0" prefHeight="20.0" prefWidth="200.0" text="">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Label>
+  </children>
+  <stylesheets>
+    <URL value="@general.css" />
+  </stylesheets>
+</AnchorPane>
